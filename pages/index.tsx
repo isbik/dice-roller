@@ -88,7 +88,7 @@ const Home: NextPage = () => {
             </div>
           ))}
         </div>
-        {myInternal && (
+        {!myInternal && (
           <p>
             Всего:{" "}
             {dices.reduce((acc, cur) => {
